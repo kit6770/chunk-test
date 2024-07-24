@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bxl-telegram</title>
+    <g id="list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-userpopup" transform="translate(-1083.000000, -689.000000)" fill-rule="nonzero">
+            <g id="编组-8备份" transform="translate(474.000000, 140.000000)">
+                <g id="编组-26" transform="translate(0.000000, 471.000000)">
+                    <g id="编组-25" transform="translate(609.000000, 15.000000)">
+                        <g id="bxl-telegram" transform="translate(0.000000, 63.000000)">
+                            <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                            <path d="M17.2208333,3.0975 L2.44583334,8.795 C1.4375,9.2 1.44333334,9.7625 2.26083334,10.0133333 L6.05416666,11.1966667 L14.8308333,5.65916666 C15.2458333,5.40666666 15.625,5.5425 15.3133333,5.81916666 L8.2025,12.2366667 L8.20083334,12.2366667 L8.2025,12.2375 L7.94083334,16.1475 C8.32416668,16.1475 8.49333334,15.9716667 8.70833334,15.7641667 L10.5508333,13.9725 L14.3833333,16.8033333 C15.09,17.1925 15.5975,16.9925 15.7733333,16.1491667 L18.2891667,4.2925 C18.5466667,3.26 17.895,2.7925 17.2208333,3.0975 Z" id="路径" fill="#898989"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

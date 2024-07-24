@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>menu-Ignore</title>
+    <g id="list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu" transform="translate(-424.000000, -299.000000)" fill-rule="nonzero">
+            <g id="group-14" transform="translate(409.000000, 108.000000)">
+                <g id="menu-Ignore" transform="translate(15.000000, 191.000000)">
+                    <rect id="rect" fill="#000000" opacity="0" x="0" y="0" width="14" height="14"></rect>
+                    <path d="M11.676,2.324 C9.086,-0.266 4.914,-0.266 2.324,2.324 C-0.266,4.914 -0.266,9.086 2.324,11.676 C4.914,14.266 9.086,14.266 11.676,11.676 C14.266,9.086 14.238,4.914 11.676,2.324 Z M2.912,9.646 C1.694,7.77 1.904,5.208 3.57,3.57 C5.236,1.904 7.77,1.694 9.646,2.912 L2.912,9.646 Z M4.368,11.088 L11.102,4.354 C12.32,6.23 12.11,8.792 10.444,10.43 C8.806,12.096 6.244,12.306 4.368,11.088 Z" id="shape" fill="#D63838"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

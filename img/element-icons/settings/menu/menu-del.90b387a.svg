@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>delete-fill</title>
+    <g id="list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu" transform="translate(-710.000000, -357.000000)" fill-rule="nonzero">
+            <g id="group-14" transform="translate(696.000000, 108.000000)">
+                <g id="delete-fill" transform="translate(14.000000, 249.000000)">
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M13.5,4 L11.5,4 L11.5,2.75 C11.5,2.1984375 11.0515625,1.75 10.5,1.75 L5.5,1.75 C4.9484375,1.75 4.5,2.1984375 4.5,2.75 L4.5,4 L2.5,4 C2.2234375,4 2,4.2234375 2,4.5 L2,5 C2,5.06875 2.05625,5.125 2.125,5.125 L3.06875,5.125 L3.4546875,13.296875 C3.4796875,13.8296875 3.9203125,14.25 4.453125,14.25 L11.546875,14.25 C12.08125,14.25 12.5203125,13.83125 12.5453125,13.296875 L12.93125,5.125 L13.875,5.125 C13.94375,5.125 14,5.06875 14,5 L14,4.5 C14,4.2234375 13.7765625,4 13.5,4 Z M10.375,4 L5.625,4 L5.625,2.875 L10.375,2.875 L10.375,4 Z" id="shape" fill="#999999"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

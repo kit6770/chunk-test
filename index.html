@@ -1,1 +1,598 @@
-<html lang='en'><body>only testing</body></html>
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+    <head>
+        <meta charset="utf-8" />
+        <title>SendingMe</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="vector-icons/apple-touch-icon-180.96307a5.png"
+        />
+        <link rel="manifest" href="manifest.json" />
+        <meta name="referrer" content="no-referrer" />
+        <link
+            rel="shortcut icon"
+            href="vector-icons/favicon.3d6f819.ico"
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no"
+        />
+        <meta name="apple-mobile-web-app-title" content="SendingMe" />
+        <meta name="application-name" content="SendingMe" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta
+            name="msapplication-TileImage"
+            content="vector-icons/mstile-150.577868d.png"
+        />
+        <meta
+            name="msapplication-config"
+            content="vector-icons/browserconfig.93cf611.xml"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <meta property="og:image" content="https://chat.sending.me/themes/element/img/logos/opengraph.webp" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="
+        default-src 'none';
+        style-src 'self' 'unsafe-inline' https://dslqbcppsjj04.cloudfront.net https://d1q7fiu45lygg8.cloudfront.net https://cdn-alpha.sending.me https://cdn.sending.me https://live.sending.me;
+        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://vjs.zencdn.net https://unpkg.com https://platform.twitter.com wss://relay.walletconnect.com https://zoom.us https://source.zoom.us https://auth.particle.network https://wallet.particle.network https://fonts.gstatic.com https://www.recaptcha.net https://www.gstatic.com https://app.openlogin.com/sdk-modal https://www.googletagmanager.com/ https://d1q7fiu45lygg8.cloudfront.net https://dslqbcppsjj04.cloudfront.net https://hs-alpha.sending.me https://hs.sending.me https://cdn-alpha.sending.me https://cdn.sending.me https://cdn.tokenproof.xyz/js/tokenproof-oa-widget-v1.0.js https://live.sending.me;
+        img-src * blob: data: https://dslqbcppsjj04.cloudfront.net https://d1q7fiu45lygg8.cloudfront.net https://cdn-alpha.sending.me https://cdn.sending.me;
+        connect-src *;
+        media-src * blob: data: https://dslqbcppsjj04.cloudfront.net https://d1q7fiu45lygg8.cloudfront.net https://cdn-alpha.sending.me https://cdn.sending.me;
+        child-src * blob: data:;
+        worker-src 'self' blob: https://dslqbcppsjj04.cloudfront.net https://d1q7fiu45lygg8.cloudfront.net  https://cdn-alpha.sending.me https://cdn.sending.me;
+        frame-src * blob: data: https://verify.walletconnect.com https://dslqbcppsjj04.cloudfront.net https://d1q7fiu45lygg8.cloudfront.net https://cdn-alpha.sending.me https://cdn.sending.me;
+        form-action 'self';
+        manifest-src 'self' https://dslqbcppsjj04.cloudfront.net https://d1q7fiu45lygg8.cloudfront.net https://cdn-alpha.sending.me https://cdn.sending.me;
+        font-src 'self' data: https://fonts.gstatic.com https://dslqbcppsjj04.cloudfront.net https://d1q7fiu45lygg8.cloudfront.net https://cdn-alpha.sending.me https://cdn.sending.me;
+    "
+        />
+        
+        <link rel="stylesheet" href="bundles/c4a6231016743aa4b6d4/bundle.css" />
+        
+        <link rel="stylesheet" href="bundles/c4a6231016743aa4b6d4/collabland.css" />
+        
+        <link rel="stylesheet" href="bundles/c4a6231016743aa4b6d4/deeplink.css" />
+        
+        <link
+            rel="stylesheet"
+            disabled="disabled"
+            data-mx-theme="Light"
+            title="Light"
+            href="bundles/c4a6231016743aa4b6d4/theme-light.css"
+        />
+        
+        <link
+            rel="stylesheet"
+            disabled="disabled"
+            data-mx-theme="Dark"
+            title="Dark"
+            href="bundles/c4a6231016743aa4b6d4/theme-dark.css"
+        />
+        
+        <link
+            rel="stylesheet"
+            disabled="disabled"
+            data-mx-theme="Ape-dark"
+            title="Ape-dark"
+            href="bundles/c4a6231016743aa4b6d4/theme-ape-dark.css"
+        />
+        
+        <link
+            rel="stylesheet"
+            disabled="disabled"
+            data-mx-theme="Antd-light"
+            title="Antd-light"
+            href="bundles/c4a6231016743aa4b6d4/theme-antd-light.css"
+        />
+        
+        <link
+            rel="stylesheet"
+            disabled="disabled"
+            data-mx-theme="Antd-dark"
+            title="Antd-dark"
+            href="bundles/c4a6231016743aa4b6d4/theme-antd-dark.css"
+        />
+        
+        <link
+            rel="stylesheet"
+            disabled="disabled"
+            data-mx-theme="Antd-ape-dark"
+            title="Antd-ape-dark"
+            href="bundles/c4a6231016743aa4b6d4/theme-antd-ape-dark.css"
+        />
+         
+    </head>
+
+    <body style="height: 100%; margin: 0">
+        <link rel="stylesheet/less" type="text/css" href="./color.less" />
+        <script>
+            window.less = {
+                async: false,
+                env: "production", //production  development
+            };
+        </script>
+        <noscript>Sorry, SendingMe requires JavaScript to be enabled.</noscript>
+        <!-- TODO: Translate this? -->
+        <section
+            id="matrixchat"
+            style="height: 100%"
+            class="notranslate"
+        ></section>
+        <section id="app-wizard"></section>
+        <!-- <iframe style="width: 0;height: 0;position: absolute;" src="https://p2p.sending.me/#/login" id="P2PWeb" frameborder="0"></iframe>
+    Legacy supporting Prefetch images -->
+        <img
+            src="img/warning.05cc423.svg"
+            width="24"
+            height="23"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px"
+        />
+        <img
+            src="img/e2e/warning.78bb264.svg"
+            width="24"
+            height="23"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px"
+        />
+        <img
+            src="img/feather-customised/warning-triangle.d050a38.svg"
+            width="24"
+            height="23"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px"
+        />
+        <img
+            src="img/format/bold.38e6779.svg"
+            width="25"
+            height="22"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px"
+        />
+        <img
+            src="img/format/code.ea9f385.svg"
+            width="25"
+            height="22"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px"
+        />
+        <img
+            src="img/format/italics.4e279d1.svg"
+            width="25"
+            height="22"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px"
+        />
+        <img
+            src="img/format/quote.5843424.svg"
+            width="25"
+            height="22"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px"
+        />
+        <img
+            src="img/format/strikethrough.bac51cb.svg"
+            width="25"
+            height="22"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px"
+        />
+
+        <audio id="messageAudio">
+            <source src="media/message.ogg" type="audio/ogg" />
+            <source src="media/message.mp3" type="audio/mpeg" />
+        </audio>
+        <audio id="ringAudio" loop>
+            <source src="media/ring.ogg" type="audio/ogg" />
+            <source src="media/ring.mp3" type="audio/mpeg" />
+        </audio>
+        <audio id="ringbackAudio" loop>
+            <source src="media/ringback.ogg" type="audio/ogg" />
+            <source src="media/ringback.mp3" type="audio/mpeg" />
+        </audio>
+        <audio id="callendAudio">
+            <source src="media/callend.ogg" type="audio/ogg" />
+            <source src="media/callend.mp3" type="audio/mpeg" />
+        </audio>
+        <audio id="busyAudio">
+            <source src="media/busy.ogg" type="audio/ogg" />
+            <source src="media/busy.mp3" type="audio/mpeg" />
+        </audio>
+        <audio id="remoteAudio"></audio>
+
+        <div id="mx_login_animate"></div>
+        <div class="mx_loading">
+            <div class="mx_loading_bar" style="display: none;">
+                <img src="vector-icons/brand_logo.png" id="mx_loading_bar_logo" />
+            </div>
+            <!-- <div class="mx_loading_percent">
+      <span id="percentText">%</span>
+    </div> -->
+            <div class="mx_loading_content">
+                <ul class="mx_loading_content_list">
+                    <li class="mx_loading_content_list_item">
+                        The IM belongs to the people.
+                    </li>
+                    <li class="mx_loading_content_list_item">
+                        A demonstration of SendingNetwork.
+                    </li>
+                    <li class="mx_loading_content_list_item">
+                        Set your NFT as your unique avatar.
+                    </li>
+                    <li class="mx_loading_content_list_item">
+                        Join squad to have fun with communities.
+                    </li>
+                    <li class="mx_loading_content_list_item">
+                        The IM belongs to the people.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- sw.js update banner -->
+        <!-- <div id="sw-snackbar">
+      <span>A new version of this app is available</span>
+      <span id="sw-snackbar-reload">REFRESH</span>
+      <span id="sw-snackbar-close">✕</span>
+    </div> -->
+    </body>
+    <!-- <script src="SendingMeLogoAnimate/animationData.js"></script> -->
+    <script src="SendingMeLogoAnimate/animationLightData.js"></script>
+    <script src="SendingMeLogoAnimate/lottie.js"></script>
+    <script>
+        function getSquadInfoByDomainCode() {
+            return new Promise((resolve, reject) => {
+                let code = window.location.host.split(".")[0];
+                if (code.indexOf("localhost") > -1) {
+                    if (!localStorage.getItem("mx_private_domain_code")) {
+                        resolve();
+                        retutrn;
+                    } else {
+                        code = localStorage.getItem("mx_private_domain_code");
+                    }
+                }
+                const homeserver = code.indexOf("alpha") > -1 ? "https://hs-alpha.sending.me" : "https://hs.sending.me";
+                try {
+                    return fetch(`${homeserver}/_api/client/r0/squad_domain/${code}`)
+                        .then(response => {
+                            if (!response.ok) {
+                                resolve();
+                                throw new Error('private domain network response was not ok');
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            resolve(data)
+                        })
+                        .catch(error => {
+                            console.error('Error load domain info:', error);
+                            resolve();
+                        });
+                } catch {
+                    resolve();
+                }
+            })
+        }
+
+        function setDefaultThemeSkin() {
+            const body = document.body;
+            body.style.backgroundImage = `url("vector-icons/loading-common-bg.png")`;
+            var params = {
+                container: document.getElementById("mx_login_animate"),
+                renderer: "svg",
+                loop: true,
+                autoplay: true,
+                // animationData: animationData,
+                animationData: animationLightData,
+            };
+            window.lottie = lottie;
+            lottie.setQuality("low");
+            var fireworkLeft = lottie.loadAnimation(params);
+            fireworkLeft.addEventListener("loopComplete", () => {
+                localStorage.setItem("logoAnimateState", "loopComplete");
+            });
+            fireworkLeft.addEventListener("destroy", () => {
+                localStorage.setItem("logoAnimateState", "destroy");
+            });
+        }
+
+        function setPrivateDomainThemeSkin() {
+            const body = document.body;
+            body.style.backgroundImage = `url("themes/skins/ape/ape_theme_skin_init_bg.png")`;
+            const themeLogo = document.querySelector("#mx_loading_bar_logo");
+            document.querySelector(".mx_loading_bar").style.display = "unset";
+            document.querySelector(".mx_loading").style.top = "45%";
+            themeLogo.src = "themes/skins/ape/ape_login_logo.png";
+            themeLogo.style.width = "unset";
+            localStorage.setItem("logoAnimateState", "loopComplete");
+        }
+
+        let domainInfo;
+        getSquadInfoByDomainCode().then((res) => {
+            domainInfo = res;
+            window.domainInfo = domainInfo || {};
+            console.log("getSquadInfoByDomainCode domainInfo", domainInfo);
+            if (domainInfo && domainInfo.skin) {
+                // If it is an independent domain name and has skin
+                setPrivateDomainThemeSkin();
+            } else {
+                // If there is no skin bound to the current domain name, the default logic is used
+                setDefaultThemeSkin()
+            }
+        })
+    </script>
+    <script>
+        document.onload = function () {
+            document.querySelector("#mx_login_animate").style.display = "none";
+            document.querySelector(".mx_loading").style.display = "none";
+            document.querySelector("#matrixchat").style.visibility = "visible";
+            lottie.destroy();
+        };
+        const script = document.createElement("script");
+        const username = /(chat|app)\.sending\.me/.test(location.hostname)
+            ? "hs"
+            : "hs-alpha";
+        script.src = `https://${username}.sending.me/_api/media/r0/download/${username}.sending.me/activityConfigFile.js?_t=${Date.now()}`;
+        document.getElementsByTagName("head")[0].appendChild(script);
+    </script>
+    <script src="bundles/c4a6231016743aa4b6d4/bundle.js"></script>
+    <style>
+        #mx_login_animate {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            display: block;
+            overflow: hidden;
+            transform: translate3d(0, 0, 0);
+            text-align: center;
+            opacity: 1;
+            position: absolute;
+        }
+
+        #matrixchat {
+            visibility: hidden;
+        }
+    </style>
+    <!-- Cover antd box-sizing Style -->
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: content-box;
+        }
+
+        html {
+            background-color: #0e0a12;
+        }
+
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-color: #0e0a12;
+        }
+
+        .snow_media {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            opacity: 0.2;
+            width: 100vw;
+            height: 100vh;
+            object-fit: fill;
+        }
+    </style>
+    <style>
+        .mx_loading {
+            position: absolute;
+            left: 50%;
+            top: 60%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 1000;
+        }
+
+        .mx_login_theme_logo {
+
+        }
+
+        .mx_loading_bar {
+            position: relative;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .mx_loading_bar img {
+            position: relative;
+            z-index: 2;
+            top: 1px;
+            left: 0;
+            width: 50%;
+        }
+    </style>
+    <style>
+        .mx_loading_percent {
+            position: relative;
+            margin-top: 30px;
+            background: #fc774b;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .mx_loading_percent::after {
+            content: "";
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            width: 179px;
+            height: 3px;
+            background: linear-gradient(to right, #fc774b, #fc774b) 0/0%
+                no-repeat #262a2c;
+            animation: load 5s ease-in-out;
+            animation-fill-mode: forwards;
+            transform: translate(-50%, 0);
+        }
+
+        @keyframes load {
+            from {
+                background-size: 0%;
+            }
+
+            to {
+                background-size: 98%;
+            }
+        }
+
+        @media only screen and (max-width: 640px) {
+            /* .mx_loading_percent > span,
+        .mx_loading_percent::before {
+            display: none;
+        }
+        .mx_loading_percent::after {
+            top: 0;
+        } */
+
+            .mx_loading_content_list {
+                font-size: 18px;
+            }
+        }
+    </style>
+    <style>
+        #app-wizard {
+            display: none;
+            content: "";
+            width: 100vw;
+            height: 100vh;
+            background-image: url(vector-icons/loading-common-bg.png); 
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+        }
+
+        .mx_loading_content {
+            position: relative;
+            height: 35px;
+            font-size: 24px;
+            color: #272830;
+            overflow: hidden;
+            text-align: center;
+            margin-top: 60px;
+            font-weight: 500;
+        }
+
+        .mx_loading_content_list {
+            list-style: none;
+            height: 35px;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .mx_loading_content_list_item {
+            height: 35px;
+            line-height: 35px;
+            list-style: none;
+            margin: 0;
+            animation-name: change;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            white-space: nowrap;
+        }
+
+        @keyframes change {
+            0%,
+            18%,
+            100% {
+                transform: translate3d(0, 0, 0);
+            }
+
+            20%,
+            40% {
+                transform: translate3d(0, -100%, 0);
+            }
+
+            42%,
+            62% {
+                transform: translate3d(0, -200%, 0);
+            }
+
+            64%,
+            84% {
+                transform: translate3d(0, -300%, 0);
+            }
+
+            86%,
+            100% {
+                transform: translate3d(0, -400%, 0);
+            }
+         
+        }
+    </style>
+    <!-- sw.js notification style -->
+    <style>
+        #sw-snackbar {
+            display: flex;
+            align-items: center;
+            visibility: hidden;
+            min-width: 250px;
+            margin-left: -125px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 2px;
+            padding: 16px;
+            position: fixed;
+            z-index: 9999;
+            right: 10%;
+            bottom: 30px;
+            font-size: 16px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        #sw-snackbar.show {
+            visibility: visible;
+            -webkit-animation: swfadein 0.5s;
+            animation: swfadein 0.5s;
+        }
+
+        #sw-snackbar-reload {
+            padding: 0 12px;
+            color: cornflowerblue;
+            cursor: pointer;
+        }
+
+        #sw-snackbar-close {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+            cursor: pointer;
+        }
+
+        @-webkit-keyframes swfadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes swfadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+    </style>
+</html>
