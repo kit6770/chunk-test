@@ -1,1 +1,0 @@
-{"version":3,"file":"bundles/c4a6231016743aa4b6d4/8572.js","mappings":";;;;;;;;;;;AAA0B;AAEX,SAASC,iBAAiBA,CAAA,EAAG;EAC1C,oBACED,gDAAA,cAAK,+BAAkC,CAAC;AAE5C","sources":["webpack://hisease-im-web/./node_modules/matrix-react-sdk/src/components/views/messages/MStickerReplyBody.tsx"],"names":["React","MStickerReplyBody","createElement"],"sourceRoot":""}
